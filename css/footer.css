@@ -1,0 +1,72 @@
+.footer {
+  margin: 0 auto;
+  background: #2C2C32;
+  color: white;
+  height: 100vh;
+}
+.contact__title {
+  margin-top: 15vh;
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.contact__info {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.contanct__content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.contact__item__title {
+  font-weight: bold;
+}
+.btn__sendmass {
+  background: rgba(122, 115, 102, 0.4);
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: 5px;
+}
+#textMass {
+  margin-top: 15px;
+  padding-top: 10px;
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  color: white;
+  background: #2B2C31;
+  border-bottom: 1px solid white;
+}
+#nameId,
+#emailId {
+  margin-top: 25px;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 18px;
+  background: #2B2C31;
+  border-bottom: 1px solid white;
+}
+.file__task {
+  margin-right: 10px;
+  font-size: 18px;
+  opacity: 0.5;
+}
+.title__partners {
+  text-transform: uppercase;
+}
+.footer__content {
+  padding-top: 30px;
+  margin-bottom: 3vh;
+}

@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Teko" rel="stylesheet">
+    <link rel="stylesheet" href="css/csshake.css">
+    <link rel="shortcut icon" href="img/icon1.png" type="image/png">
+    <meta name="theme-color" content="#2F79E9">
+    <title>Gradient</title>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script src="js/jquery.fullPage.js"></script>
+
+
+    <script src="js/jquery.slimscroll.min.js"></script>
+
+</head>
+<body>
+
+
+<div class="container-fluid">
+    <div class="row d-flex flex-row">
+        <div class="menu__top">
+            <div class="row">
+                <div class="top__menu d-flex flex-row">
+                    <div class="col-lg-12">
+                        <ul id="menu" class="d-flex flex-row justify-content-start">
+                            <!--<div class="header__logo">-->
+                            <!--<img src="img/logo.png" alt="" class="logo">-->
+                            <!--</div>-->
+                            <li data-menuanchor="firstPage" class="top__menu__items "><a href="#firstPage">Главная</a></li>
+                            <li data-menuanchor="secondPage" class="top__menu__items"><a href="#secondPage">Услуги</a></li>
+                            <li data-menuanchor="3thPage" class="top__menu__items"><a href="#3thPage">Наша Команда</a></li>
+                            <li data-menuanchor="4thPage" class="top__menu__items"><a href="#4thPage">Используемые Технологии</a></li>
+                            <li data-menuanchor="5thPage" class="top__menu__items"><a href="#5thPage">Почему Мы ?</a></li>
+                            <li data-menuanchor="6thPage" class="top__menu__items"><a href="#6thPage">Контакти</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" burger__menu">
+            <div class="burger__btn__bg">
+                <img src="img/burger.png" alt="" class="burger__btn">
+                <p class="burger__info">г.Киев</p>
+                <p class="burger__info">+38(096) 600-43-02</p>
+                <div class="top__menu__burger">
+                    <ul id="menu__burger" class=" d-flex flex-column justify-content-around">
+                        <li data-menuanchor="firstPage" class="top__menu__items__berger "><a href="#firstPage">Главная</a></li>
+                        <li data-menuanchor="secondPage" class="top__menu__items__berger"><a href="#secondPage">Услуги</a></li>
+                        <li data-menuanchor="3thPage" class="top__menu__items__berger"><a href="#3thPage">Наша Команда</a></li>
+                        <li data-menuanchor="4thPage" class="top__menu__items__berger"><a href="#4thPage">Технологии</a></li>
+                        <li data-menuanchor="5thPage" class="top__menu__items__berger"><a href="#5thPage">Почему Мы ?</a></li>
+                        <li data-menuanchor="6thPage" class="top__menu__items__berger"><a href="#6thPage">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="fullpage">
+
+    <div id="section0" class="section active">
+        <header  class="header">
+            <div class="container-fluid bg-header">
+
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row d-flex flex-column justify-content-center">
+
+                            <h1 class="header__title">Мы креативное решение
+                                для вашего бизнеса</h1>
+
+                            <h2 class="header__text">Оставьте заявку на бесплатный расчет стоимости Вашего сайта</h2>
+
+                            <div class="row header__form d-flex flex-lg-row flex-md-column flex-wrap">
+                                <!--<input class="header__form__items" type="text" placeholder="Ваше имя">
+                                <input class="header__form__items" type="email" placeholder="Ваш Email">
+                                <input class="header__form__items" type="tel" placeholder="Ваш телефон">-->
+                                    <a href="#6thPage" class="header__form__btn mb-5">Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div id="section1" class="section">
+        <section  class="container-fluid product">
+            <div class="row d-flex justify-content-center justify-content-sm-around">
+                <h1 class="main__title__product">Услуги <span class="bold">Веб студии</span></h1>
+                <p class="product__text__about">Наша web-студия разработает для Вас сайт - от визитки и лендинга-
+                    до магазина и корпоративного сайта в зависимости от ваших задач
+                    и целей!</p>
+            </div>
+
+            <div class="row prodcut__card">
+
+                <div class="col-lg-4 col-md-12 product__items">
+                        <p class="product__items__title">Landing  page</p>
+                        <img src="img/landingPage.png" alt="" class="product__logo">
+                        <p class="product__text">Небольшой сайт, отлично подойдет для малого бизнеса. Это могут быть любые услуги или портфолио</p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 product__items">
+                        <p class="product__items__title">Сайт  для  бизнеса</p>
+                        <img src="img/bussnes.png" alt="" class="product__logo">
+                        <p class="product__text">Доступное решение для компаний, большое количество разделов, новости и прочее</p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 product__items">
+                        <p class="product__items__title">Интернет  магазин</p>
+                        <img src="img/shopInternet.png" alt="" class="product__logo">
+                        <p class="product__text">Разработка удобного инструмента для интернет-продаж</p>
+                </div>
+
+            </div>
+            <div class="calc">
+                <button class="btn__calc">
+                        Калькулятор стоимости сайта
+                </button>
+            </div>
+        </section>
+        <div class="calculator">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+
+                        <div class="row calculator__items">
+                            <div class="col-lg-4 pt-3 pb-2">
+                                <p>Тип сайта</p>
+
+                            </div>
+                            <div class="col-lg-6 pt-3 pb-2">
+                                <select name="" id="typeSite" class="calculator__select" >
+                                    <option value="" disabled selected>Кликните для вибора</option>
+                                    <option id="landing" value="100">Лендинг</option>
+                                    <option value="150">Корпоративний</option>
+                                    <option id="shop" value="250">Магазин</option>
+                                    <option value="300">Новостной</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 pt-3 pb-2">
+                                <input id="resTypeSite" type="text" class="resultCalc" value="" >
+                            </div>
+                        </div>
+
+                        <div class="row calculator__items">
+                            <div class="col-lg-4 pt-3 pb-2">
+                                <p>Управлятор</p>
+
+                            </div>
+                            <div class="col-lg-6 pt-3 pb-2">
+                                <select name="" id="cms" class="calculator__select">
+                                    <option value="" disabled selected>Кликните для вибора</option>
+                                    <option value="0">Word Press</option>
+                                    <option value="0">OpenCart</option>
+                                    <option value="200">Framework</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 pt-3 pb-2">
+                                <input id="cmsType" type="text" class="resultCalc" value="" >
+                            </div>
+                        </div>
+
+                        <div class="row calculator__items">
+                            <div class="col-lg-4 pt-3 pb-2">
+                                <p>Дизайн</p>
+
+                            </div>
+                            <div class="col-lg-6 pt-3 pb-2">
+                                <select name="" id="design" class="calculator__select">
+                                    <option value="" disabled selected>Кликните для вибора</option>
+                                    <option value="70">Уникальний шаблон</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-2 pt-3 pb-2">
+                                <input id="designType" type="text" class="resultCalc" value="" >
+                            </div>
+                        </div>
+
+
+                        <div class="row calculator__items">
+                            <div class="col-lg-4 pt-3 pb-2">
+                                <p> Наполнение</p>
+
+                            </div>
+                            <div class="col-lg-6 pt-3 pb-2">
+                                <select name="" id="content" class="calculator__select">
+                                    <option value="" disabled selected>Кликните для вибора</option>
+                                    <option value="0">Самостоятельно</option>
+                                    <option value="200">Под ключ</option>                                </select>
+                            </div>
+                            <div class="col-lg-2 pt-3 pb-2">
+                                <input id="contentType" type="text" class="resultCalc" value="" >
+                            </div>
+                        </div>
+
+                        <div class="row calculator__items">
+                            <div class="col-lg-4 pt-3 pb-2">
+                                <p>Доп. функции</p>
+
+                            </div>
+                            <div class="col-lg-6 pt-3 pb-2">
+                                <input id="addFunc" type='text' readonly='readonly' class='t_out' placeholder='Нажмите сюда, чтобы выбрать'>
+                                <div  id="checkAddFunc" class="moreFunc">
+                                    <ul class="check__items">
+                                            <li> <label><input id="radioLeng" type='checkbox' data-fix_sum_or_perc='1' data-price='200' value='Мультиязычность'>Мультиязычность</label>
+                                            <li> <label><input id="radioCalcInsite" type='checkbox' data-fix_sum_or_perc='1' data-price='500' value='Калькулятор стоимости услуг'>Калькулятор стоимости услуг</label>
+                                            <li> <label><input id="radioYourRoom" type='checkbox' data-fix_sum_or_perc='1' data-price='0' value='Личный кабинет (цена договорная)'>Личный кабинет</label>
+                                            <li> <label><input id="radioFeedback" type='checkbox' data-fix_sum_or_perc='1' data-price='100' value='Обратный звонок'>Обратный звонок</label>
+                                            <li> <label><input id="radioCell" type='checkbox' data-fix_sum_or_perc='1' data-price='100' value='Перезвоним через 30 секунд'>Перезвоним через 30 секунд</label>
+                                            <li> <label><input id="radioCard" type='checkbox' data-fix_sum_or_perc='1' data-price='200' value='Интерактивные схемы/карты'>Интерактивные схемы/карты</label>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 pt-3 pb-2">
+
+                            </div>
+                        </div>
+
+
+                        <div class="row calculator__items">
+                            <div class="col-lg-4 pt-3 pb-2">
+                                <p> Дополнительные пожелания или функции</p>
+
+                            </div>
+                            <div class="col-lg-8 pt-3 pb-2">
+                                <textarea name="" id="" cols="30" rows="5">
+
+                                </textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="resultDesk">
+                            <p>Примерная цена проекта</p>
+                            <input class="showResult" type="text" id="endPrice">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button class="resultBtn">
+                Посчитать
+            </button>
+        </div>
+    </div>
+
+
+    <div id="section2" class="section">
+        <section class="about_team ">
+            <div class="container-fluid bg__about__team">
+                <div class="row d-flex justify-content-center">
+                    <h1 class="main__title__about__team">Команда Веб Студии</h1>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card  about__team__items" style="">
+                            <img class="card-img-top  photo__team" src="img/kharaban.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title text-center mb-4">Олександр</h4>
+                                <p class="card-text text__about__team">Back-end Розработчик</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card about__team__items" style="width:100%">
+                            <img class="card-img-top photo__team" src="img/lipa.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title text-center mb-4">Павло</h4>
+                                <p class="card-text text__about__team">Frond-end Розработчик</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card  about__team__items" style="width:100%">
+                            <img class="card-img-top photo__team" src="img/artem.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title text-center mb-4">Артемий</h4>
+                                <p class="card-text text__about__team">Back-end Розработчик</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card about__team__items" style="width:100%">
+                            <img class="card-img-top photo__team" src="img/maks.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title text-center mb-4">Максим</h4>
+                                <p class="card-text text__about__team">Frond-end Розработчик</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <div id="section3" class="section">
+        <section  class="container-fluid technology img__opacity">
+            <div class="row justify-content-center">
+                <h1 class="technology__main__title"><span class="bold">технологии</span> которые мы <span class="bold">используем</span></h1>
+            </div>
+            <div class="container technology__big">
+
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-3 pb-5 d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <a href="#"><img src="img/html-logo.png" alt="" class="technology__logo"></a>
+                            <p class="text-center technology__text">Html</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/css3.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">Css</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/JSLogo.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">javascript</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/jquery.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">JQuery</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center ">
+                    <div class="col-lg-3  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/php-logo.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">Php</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/ajax-logo.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">ajax</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/mysql-logo.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">mysql</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/bitbucked-logo.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">bitbucked</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row  pb-5 ">
+                    <div class="col-lg-3   mt-lg-4  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/bootstrap-logo.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">bootstrap</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3   mt-lg-4  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/react-logo.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">React</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3   mt-lg-4  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/laravel-logo.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">laravel</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3   mt-lg-4  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/mongo-logo.jpg" alt="" class="technology__logo">
+                            <p class="text-center technology__text">mongo Db</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pb-5 justify-content-center">
+                    <div class="col-lg-3   mt-lg-4  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/maria-logo.jpg" alt="" class="technology__logo">
+                            <p class="text-center technology__text">maria Db</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3   mt-lg-4  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/wordpress-logo.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">wordpress</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3   mt-lg-4  d-flex flex-column align-items-center ">
+                        <div class="technology__items">
+                            <img src="img/opencard-logo.png" alt="" class="technology__logo">
+                            <p class="text-center technology__text">opencart</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="technology__small mt-3 justify-content-around">
+                <div class="technology__items__small">
+                    <img src="img/html-logo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">Html</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/css3.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">Css</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/JSLogo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">javascript</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/jquery.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">JQuery</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/php-logo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">Php</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/ajax-logo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">ajax</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/mysql-logo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">mysql</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/bitbucked-logo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">bitbucked</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/bootstrap-logo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">bootstrap</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/react-logo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">react</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/laravel-logo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">laravel</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/mongo-logo.jpg" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">mongo db</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/maria-logo.jpg" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">maria db</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/wordpress-logo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">wordpress</p>
+                </div>
+                <div class="technology__items__small">
+                    <img src="img/opencard-logo.png" alt="" class="technology__logo__small">
+                    <p class="text-center text__technology__small">opencart</p>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <div id="section4" class="section">
+        <section class="container-fluid arguments ">
+            <div class="row d-flex justify-content-center justify-content-sm-around">
+                <h1 class="main__title__arguments">Почему
+                    <span class="bold">вам стоит</span>
+                    обратиться к нам</h1>
+            </div>
+
+
+            <div class="row ">
+                <div class="col-lg-6 col-md-12 align-items-center mb-lg-2">
+
+                    <h1 class="main__arguments__title">Выполняем задачи</h1>
+                    <h2 class="arguments__title">Любой сложности</h2>
+
+                    <p class="arguments__text ">Начиная от небольших доработок и создания простых сайтов-визиток
+                        и заканчивая крупными порталами – мы готовы выполнить задачи
+                        любой сложности.</p>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 align-items-center mb-5">
+
+                    <h1 class="main__arguments__title">Всегда доводим </h1>
+                    <h2 class="arguments__title">Проекты до конца</h2>
+
+                    <p class="arguments__text">Заказав создание сайта у нас, Вы можете рассчитывать на полное выполнение технического задания,
+                        а также на поддержку с нашей стороны на каждом этапе сотрудничества.</p>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 align-items-center mb-5">
+
+                    <h1 class="main__arguments__title">Находим </h1>
+                    <h2 class="arguments__title">индивидуальное решение</h2>
+
+                    <p class="arguments__text">Не все решения одинаково хорошо подходят для всех бизнесов.
+                        Мы готовы подобрать те инструменты, которые принесут результат конкретно в Вашем бизнесе.</p>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 align-items-center mb-5">
+
+                    <h1 class="main__arguments__title">Мы не срываем </h1>
+                    <h2 class="arguments__title">сроки</h2>
+
+                    <p class="arguments__text">Мы ответственно относимся к своим обязательствам и выполняем поставленные задачи в сроки,
+                        указанные в договоре.</p>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 align-items-center mb-5">
+
+                    <h1 class="main__arguments__title">Создаем сайты,</h1>
+                    <h2 class="arguments__title">которые продают</h2>
+
+                    <p class="arguments__text">Мы знаем, какая структура и какие элементы
+                        на Вашем сайте должны быть, чтобы он продавал Ваши товары и услуги.</p>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12 align-items-center mb-5">
+
+                    <h1 class="main__arguments__title">Нацеленность на</h1>
+                    <h2 class="arguments__title">долгосрочное сотрудничество</h2>
+
+                    <p class="arguments__text">Начиная от небольших доработок и создания простых
+                        сайтов-визиток и заканчивая крупными порталами – мы
+                        готовы выполнить задачи любой сложности.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+    <div id="section5" class="section">
+        <footer  class="footer">
+            <div class="container-fluid">
+                <div class=" row justify-content-around">
+                    <div class="col-lg-4 col-md-12 contact__item">
+                        <div class="row contact__info">
+                            <div class="contanct__content">
+
+                                <h1 class="contact__title">
+                                    Наши Контакты
+                                </h1>
+                                <p class="contact__item__title">Телефон:</p>
+                                <p >(063) 533-8059</p>
+                                <!--<p class="contact__item__title">Адрес:</p>
+                                <p >Киев, ул. Днепровская Набережная, 26К</p>-->
+                                <p class="contact__item__title">Электронная почта:</p>
+                                <p>gradient.dev.web@gmail.com</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-12 contact__info">
+                        <h1 class="contact__title">ОСТАВЬТЕ ЗАЯВКУ ДЛЯ ПРОСЧЕТА ПРОЕКТА:</h1>
+
+                        <form action="/" method="post">
+                            <input name="nameUser" type="text" id="nameId" placeholder="Имя" required>
+                            <input name="phone" type="text" id="nameId" placeholder="Телефон" required>
+                            <input name="email" type="text" id="emailId" placeholder="Email">
+                            <textarea name="mess" id="textMass" cols="15" rows="4" placeholder="Ваше сообщение"></textarea>
+                            <span class="file__task">Загрузить ТЗ:</span><input name="fileTask" type="file">
+                            <button class="btn__sendmass">Отправить</button>
+                        </form>                    
+                    </div>
+                </div>
+            </div>
+
+
+           
+        </footer>
+    </div>
+
+</div>
+
+
+<script src="js/calc.js"></script>
+<script src="js/fullStart.js"> </script>
+<script src="js/burger.js"></script>
+
+</body>
+</html>
