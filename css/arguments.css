@@ -1,11 +1,31 @@
 .arguments {
-  background: #F2EFEA;
+  color: white;
 }
 .main__title__arguments {
   font-size: 32px;
   font-weight: 200;
   text-transform: uppercase;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin-top: 18vh;
 }
-/*# sourceMappingURL=arguments.css.map */
+.img__border__arguments {
+  margin-bottom: 30px;
+}
+.main__arguments__title {
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 4vh;
+}
+.arguments__title {
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+.arguments__text {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.8;
+  text-align: center;
+}

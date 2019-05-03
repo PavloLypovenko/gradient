@@ -1,59 +1,51 @@
 .product {
-  margin-top: 30px;
+  height: 100vh;
   background: #F2EFEA;
 }
 .img__product {
   width: 100%;
   height: 570px;
 }
-.bold {
-  font-weight: 400;
-}
 .main__title__product {
-  font-family: 'Lato', sans-serif;
   font-size: 32px;
   font-weight: 200;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-top: 18vh;
+  padding-bottom: 30px;
 }
-.product__title__right {
-  font-size: 20px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 400;
-}
-.product__border {
+.product__logo {
   width: 100%;
-  margin-bottom: 20px;
-}
-.left__product__content {
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-  align-items: right;
-  margin: 0;
-}
-.right__product__content {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin: 0;
-}
-.btn_product {
-  width: 70%;
-  background: #2477B7;
-  border: none;
-  color: white;
-  padding: 7px;
-  border-radius: 15px;
+  height: 250px;
 }
 .product__title {
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 400;
+  text-align: center;
+  margin-top: 14vh;
+  margin-bottom: 20px;
+}
+.product__items__title {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.product__text__about {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.8;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .product__text {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
+  text-align: center;
+  opacity: 0.8;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Lobster', cursive;
+  font-family: 'Teko', sans-serif;
 }
-/*# sourceMappingURL=section-product.css.map */

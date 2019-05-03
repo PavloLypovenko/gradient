@@ -1,0 +1,33 @@
+.about_team {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.main__title__about__team {
+  margin-top: 18vh;
+  font-family: 'Lato', sans-serif;
+  font-size: 38px;
+  color: white;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.photo__team {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.text__about__team {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.about__team__items {
+  color: white;
+  background: rgba(122, 115, 102, 0);
+  border: none;
+  margin-top: 7vh;
+}

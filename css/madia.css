@@ -1,6 +1,150 @@
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .top__menu {
+@media only screen and (max-width: 767px) {
+  .menu__top {
     display: none;
   }
+  .burger__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .burger__btn {
+    display: block;
+  }
+  .header__title {
+    font-size: 38px;
+    margin-top: 20vh;
+  }
+  .header__form {
+    margin-bottom: 15vh;
+  }
+  .header__form__items {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .header__form__btn {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .main__title__product {
+    margin-top: 15vh;
+  }
+  .product__logo {
+    width: 300px;
+    height: 250px;
+  }
+  .project__title {
+    margin-top: 15vh;
+  }
+  .product__items {
+    margin: 0 auto;
+  }
+  .project__img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .technology__big {
+    display: none;
+  }
+  .contact__title {
+    margin-top: 15vh;
+  }
+  .technology__small {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .technology__logo__small {
+    width: 50%;
+  }
 }
-/*# sourceMappingURL=madia.css.map */
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .main__title__product {
+    margin-top: 25vh;
+  }
+  .top__menu__burger {
+    height: 100vh;
+  }
+  .top__menu__items__berger a {
+    font-size: 22px;
+  }
+  .project__title {
+    margin-top: 25vh;
+  }
+  .product__logo {
+    width: 450px;
+    height: 250px;
+  }
+  .project__img {
+    width: 450px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .technology__big {
+    display: none;
+  }
+  .technology__small {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .technology__logo__small {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1028px) {
+  .menu__top {
+    display: none;
+  }
+  .burger__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .burger__btn {
+    display: block;
+  }
+  .header__title {
+    font-size: 38px;
+    margin-top: 35vh;
+  }
+  .product__logo {
+    width: 450px;
+    height: 250px;
+  }
+  .project__img {
+    width: 450px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .technology__big {
+    display: none;
+  }
+  .technology__small {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .technology__logo__small {
+    width: 45%;
+  }
+}
